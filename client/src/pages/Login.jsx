@@ -49,6 +49,7 @@ export default function Login() {
             else{
                 setVer(false)
                 console.log("not verified")
+                localStorage.setItem('user', 'null');
             }
             
         })
