@@ -46,16 +46,11 @@ export default function Login() {
             if(res.data.isVerified === true){
                 history.push('/dashboard')
             }
-            else{
+            if(res.data.verified === false){
                 setVer(false)
                 console.log("not verified")
-                
-            }
-
-            if(res.data.isVerified === false){
                 localStorage.setItem('user', 'null');
             }
-            
         })
         .catch(err =>{
             dispatch({type:"LOGIN_FAILED"})
