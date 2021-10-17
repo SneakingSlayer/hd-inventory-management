@@ -7,7 +7,7 @@ const jwt = () =>{
     }
         
 }
-export const BASE_URL = "http://localhost:5000"
+export const BASE_URL = ""
 export const config =  {
     'Content-Type': 'application/json',
     'Authorization': jwt()
