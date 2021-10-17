@@ -1,0 +1,58 @@
+body, html{
+    height: 100%;
+}
+
+.nav-item:hover{
+    cursor: pointer;
+}
+
+/**.table-bordered > tbody > tr > td,
+.table-bordered > thead > tr > td,
+.table-bordered {
+    border-left: 0px solid #fff;
+    border-right: 0px solid #fff;
+}**/
+
+.action-btn-edit{
+    border: 0;
+    background-color: transparent;
+
+}
+
+.action-btn-edit:hover{
+    cursor: pointer;
+}
+
+
+.action-btn-delete{
+    border: 0;
+    background-color: transparent;
+}
+
+.action-btn-delete:hover{
+    cursor: pointer;
+}
+
+@media print {
+    button{
+        display: none !important;
+    }
+    .btn{
+        display: none !important
+    }
+    .nav-item{
+        display: none !important;
+    }
+    .print-hide{
+        display: none !important;
+    }
+    .page-item{
+        display: none !important;
+    }
+    #tobol{
+        display: block;
+    }
+    .page-number{
+        display: block;
+    }
+ }

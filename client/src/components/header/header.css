@@ -1,0 +1,8 @@
+.active-link{
+    color: #346EB6 !important;
+  background-color: #edf5ff !important;
+
+    font-weight: 500 !important; 
+    border-radius: 10px;
+}
+
