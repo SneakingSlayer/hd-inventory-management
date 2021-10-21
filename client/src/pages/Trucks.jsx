@@ -295,9 +295,6 @@ export default function Trucks() {
                                     <Button type="submit" variant="primary" size="lg">
                                         Add Truck
                                     </Button>
-                                    <Button variant="danger" size="lg">
-                                        Cancel
-                                    </Button>
                                 </div>
                             </Form>
                             </Tab.Pane>

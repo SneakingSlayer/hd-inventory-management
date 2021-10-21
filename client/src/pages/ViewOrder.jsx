@@ -511,9 +511,6 @@ export default function ViewOrder(props) {
                                         <Button type="submit" variant="primary" size="lg">
                                             Add Order
                                         </Button>
-                                        <Button type="submit" variant="danger" size="lg">
-                                            Cancel
-                                        </Button>
                                     </div>
                                 </Form>
                             </Tab.Pane>

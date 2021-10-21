@@ -305,9 +305,6 @@ export default function Products() {
                                         <Button type="submit" variant="primary" size="lg">
                                             Add Product
                                         </Button>
-                                        <Button type="submit" variant="danger" size="lg">
-                                            Cancel
-                                        </Button>
                                     </div>
                                 </Form>
                             </Tab.Pane>

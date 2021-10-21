@@ -336,9 +336,6 @@ export default function Employees() {
                                         <Button type="submit" variant="primary" size="lg">
                                             Add Employee
                                         </Button>
-                                        <Button type="submit" variant="danger" size="lg">
-                                            Cancel
-                                        </Button>
                                     </div>
                                 </Form>
                             </Tab.Pane>

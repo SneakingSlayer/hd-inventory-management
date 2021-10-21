@@ -125,7 +125,7 @@ export default function Dashboard() {
         <>
         <Header/>
         <Container className="pt-5">
-            <h2>Welcome back, Lance!</h2>
+            <h2>Welcome back!</h2>
             <p>It's nice to have you back here, feel free to check and update our inventory.</p>
             <Row xs={12} md={12} className="g-4 pt-4">
                 <Col>
