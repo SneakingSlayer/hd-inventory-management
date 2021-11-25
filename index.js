@@ -17,7 +17,7 @@ app.use(express.json());
 app.use(cors());
 
 app.use('/api', routes);
-app.use('', test)
+app.use('/u', test)
 /**if(process.env.NODE_ENV === 'production'){
     app.use(express.static('client/build'))
 }*/
